@@ -267,3 +267,14 @@ footer nav a {
 .two-right {
     border-bottom: 1px dotted black;
 }
+
+.products-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products-images img {
+    height: 300px;
+    width: 350px;
+}
