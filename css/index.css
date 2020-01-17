@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    border: 2px solid red;
+    width: 48%
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +161,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .boxes .box.one {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.two {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.four {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.ten {
+    background-color: dodgerblue;
 }
