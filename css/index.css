@@ -69,11 +69,19 @@ p {
 nav {
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
+}
+
+.header-img {
+    display: flex;
+}
+
+.nav-logo {
+    width: 15%;
 }
 
 .nav-links {
-    border: 2px solid red;
-    width: 48%
+    width: 49%
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,6 +90,7 @@ nav {
 header {
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .container {
