@@ -77,11 +77,11 @@ nav {
 }
 
 .nav-logo {
-    width: 15%;
+    width: 160px;
 }
 
 .nav-links {
-    width: 49%
+    width: 636px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -210,4 +210,60 @@ footer nav a {
 
 .middle-content .boxes .box.ten {
     background-color: dodgerblue;
+}
+
+.section-one {
+    display: flex;
+}
+
+.section-two {
+    display: flex;
+    margin-top: 4%;
+}
+
+.section-three {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.about {
+    margin-bottom: 3%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 2%;
+}
+
+.section-one h2 {
+    margin-top: 20px;
+}
+
+.section-two h2 {
+    margin-top: 20px;
+}
+
+.section-three h2 {
+    margin-top: 20px;
+}
+
+.section-one button {
+    margin: 5% 0;
+}
+
+.section-two button {
+    margin: 5% 0;
+}
+
+.one-left {
+    border-bottom: 1px dotted black;
+}
+
+.one-right {
+    border-bottom: 1px dotted black;
+}
+
+.two-left {
+    border-bottom: 1px dotted black;
+}
+
+.two-right {
+    border-bottom: 1px dotted black;
 }
